@@ -1,0 +1,66 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navMenu,
+.navIcon {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.navMenu a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.Furniro {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.banner {
+  position: relative;
+  border: 1px solid black;
+}
+.hero-text {
+  padding: 20px;
+  background-color: #fff3e3;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  right: 10%;
+  border-radius: 10px;
+}
+
+.new-arrival {
+  font: bold;
+}
+
+.discover {
+  font-weight: 800;
+  color: #b88e2f;
+}
+
+.buy-now {
+  color: white;
+  font: bold;
+  background-color: #b88e2f;
+  padding: 20px 50px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

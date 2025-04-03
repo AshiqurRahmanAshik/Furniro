@@ -34,7 +34,6 @@
 
 .banner {
   position: relative;
-  border: 1px solid black;
 }
 .hero-text {
   padding: 20px;
@@ -63,4 +62,26 @@
   border: none;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.browse-range {
+  text-align: center;
+  margin: 20px;
+}
+.browse-title {
+  font: bold;
+}
+
+.browse-description {
+  padding: 10px;
+}
+.browse-image {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.range-name {
+  font-weight: 500;
 }

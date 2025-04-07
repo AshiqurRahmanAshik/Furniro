@@ -194,3 +194,47 @@ footer {
 .rights {
   text-align: center;
 }
+
+/* Shop Page*/
+.banner {
+  background-image: url(../Images/banner.png);
+  background-size: cover;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.features {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #fff1cf;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.page-number {
+  text-align: center;
+  margin: 50px;
+}
+
+.page-button {
+  background-color: #d1b87e;
+  color: black;
+  text-align: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  gap: 50px;
+}

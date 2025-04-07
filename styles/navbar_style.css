@@ -137,3 +137,60 @@
   left: 4px;
   color: white;
 }
+
+/* Show More */
+.show-more {
+  text-align: center;
+  margin: 30px;
+}
+.show-more-btn {
+  text-align: center;
+  color: #bd8504;
+  font: bold;
+  padding: 20px 50px;
+  border: 1px solid #fcb000;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.inspiration {
+  background-color: #fcf8f3;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.funiro-furniture-description {
+  text-align: center;
+}
+
+.furniture-images {
+  gap: 10px;
+  margin: 0 auto;
+}
+.furniture-images img {
+  height: auto;
+  width: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 100px;
+}
+
+.footer-links a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-help a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.rights {
+  text-align: center;
+}

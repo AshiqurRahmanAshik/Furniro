@@ -3,6 +3,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 #navbar {
   display: flex;
   justify-content: space-around;
@@ -70,6 +71,10 @@
 }
 .browse-title {
   font: bold;
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+  font-size: larger;
 }
 
 .browse-description {
@@ -84,4 +89,51 @@
 
 .range-name {
   font-weight: 500;
+}
+
+/* Our Product Section */
+.our-products-title {
+  font: bold;
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.our-products-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.our-products-card {
+  background-color: #ffffff89;
+}
+.product-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount {
+  background-color: rgb(255, 26, 26);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  left: 80px;
+  top: 60px;
+}
+
+.discount-text {
+  position: relative;
+  top: 12px;
+  left: 4px;
+  color: white;
 }

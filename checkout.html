@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles/navbar_style.css" />
+    <script
+      src="https://kit.fontawesome.com/5858bd8c6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header>
+      <!-- Navbar Section Start -->
+      <nav id="navbar">
+        <!-- Navbar logo Section Start -->
+        <div class="navLogo">
+          <img width="100" src="Images/furnito_logo.png" alt="Furnnito Logo" />
+          <p class="Furniro">Furniro</p>
+        </div>
+        <!-- Navbar logo Section End -->
+
+        <!-- Navbar Menu Section Start -->
+        <div class="navMenu">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <!-- Navbar Menu Section End -->
+        <!-- Navbar icon Section Start -->
+        <div class="navIcon">
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <!-- Navbar icon Section End -->
+      </nav>
+      <!-- Navbar Section End -->
+    </header>
+
+    <!-- Banner Section -->
+
+    <section class="product-container banner">
+      <div class="banner-text">
+        <h2>Checkout</h2>
+        <h3>Home <span> > Checkout </span></h3>
+      </div>
+    </section>
+
+    <!-- Billing Detail -->
+    <section class="product-container">
+      <div class="billing-product">
+        <div class="billing-details">
+          <h3>Billing Details</h3>
+          <div class="name">
+            <div class="form-title">
+              <h4>First Name</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Last Name</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Company Name (Optional)</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Country/Region</h4>
+              <input class="place-order-btn" type="" />
+            </div>
+            <div class="form-title">
+              <h4>Street Address</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Town/City</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Province</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Zip Code</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <h4>Email Address</h4>
+              <input class="place-order-btn" type="text" />
+            </div>
+            <div class="form-title">
+              <input
+                class="place-order-btn addinfo"
+                placeholder="Additional Information"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="summary-container">
+          <h2>Product</h2>
+          <div class="summary-row">
+            <span>Asgaard sofa <span class="qty">x 1</span></span>
+            <span>Rs. 250,000.00</span>
+          </div>
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>Rs. 250,000.00</span>
+          </div>
+          <div class="summary-row total">
+            <span>Total</span>
+            <span class="highlight">Rs. 250,000.00</span>
+          </div>
+
+          <hr />
+
+          <div class="payment-methods">
+            <label class="selected-method">
+              <input type="radio" name="payment" checked />
+              <strong>Direct Bank Transfer</strong>
+            </label>
+            <p class="note">
+              Make your payment directly into our bank account. Please use your
+              Order ID as the payment reference. Your order will not be shipped
+              until the funds have cleared in our account.
+            </p>
+
+            <label class="disabled-option">
+              <input type="radio" name="payment" disabled />
+              <span>Direct Bank Transfer</span>
+            </label>
+            <label class="disabled-option">
+              <input type="radio" name="payment" disabled />
+              <span>Cash On Delivery</span>
+            </label>
+          </div>
+
+          <p class="privacy-text">
+            Your personal data will be used to support your experience
+            throughout this website, to manage access to your account, and for
+            other purposes described in our <strong>privacy policy</strong>.
+          </p>
+
+          <button class="place-order-btn">Place order</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

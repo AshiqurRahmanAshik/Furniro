@@ -394,3 +394,71 @@ footer {
   font: 400;
   font: bold;
 }
+
+/* Get in touch */
+
+.subtitle {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.info-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.info-block h4 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+
+.contact-form {
+  flex: 1 1 50%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #b68c3e;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  align-self: flex-start;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #a57c34;
+}

@@ -462,3 +462,33 @@ footer {
 .contact-form button:hover {
   background-color: #a57c34;
 }
+
+/* blogs */
+.blog-post-logo {
+  gap: 10px;
+}
+.both-side-blog {
+  display: flex;
+}
+
+.left-side-blog {
+  padding: 30px;
+}
+.category-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.category-table td {
+  padding: 8px 10px;
+  font-size: 15px;
+  color: #777;
+}
+
+.recently-posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

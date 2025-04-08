@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles/navbar_style.css" />
+    <script
+      src="https://kit.fontawesome.com/5858bd8c6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header>
+      <!-- Navbar Section Start -->
+      <nav id="navbar">
+        <!-- Navbar logo Section Start -->
+        <div class="navLogo">
+          <img width="100" src="Images/furnito_logo.png" alt="Furnnito Logo" />
+          <p class="Furniro">Furniro</p>
+        </div>
+        <!-- Navbar logo Section End -->
+
+        <!-- Navbar Menu Section Start -->
+        <div class="navMenu">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <!-- Navbar Menu Section End -->
+        <!-- Navbar icon Section Start -->
+        <div class="navIcon">
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <!-- Navbar icon Section End -->
+      </nav>
+      <!-- Navbar Section End -->
+    </header>
+
+    <section class="product-container banner">
+      <div class="banner-text">
+        <img width="50" src="Images/furnito_logo.png" alt="Furnnito Logo" />
+      </div>
+      <h2>Cart</h2>
+      <h3>Home <span> > Cart </span></h3>
+    </section>
+
+    <section class="cart-totals product-container flex">
+    <div>
+     
+
+      <table class="cart-table">
+        <thead>
+          <tr class="table-bg">
+            <th></th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th></th>
+            
+          </tr>
+          
+        </thead>
+        <tbody>
+          <tr>
+            <td class="product-info">
+              <img src="Images/Group 98.png" alt="Asgaard sofa" />
+            </td>
+            <td >Asgaard Sofa</td>
+            <td class="muted">Rs. 250,000.00</td>
+            <td>
+              <button>1</button>
+            </td>
+            <td class="bold">Rs. 250,000.00</td>
+            <td class="delete-icon">
+              <i class="fa-solid fa-trash"></i>
+            
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+
+        <div class="cart-box">
+          <h2>Cart Totals</h2>
+          <table class="cart-table">
+            <tr>
+              <td class="label">Subtotal</td>
+              <td class="value muted">Rs. 250,000.00</td>
+            </tr>
+            <tr>
+              <td class="label">Total</td>
+              <td class="value highlight">Rs. 250,000.00</td>
+            </tr>
+          </table>
+          <button class="checkout-btn">Check Out</button>
+        </div>
+      </div>
+    </section>
+
+       <!-- features -->
+       <section class="features product-container">
+        <div class="high-quality flex">
+          <div class="logo"><img src="Images/quality.png" alt="" /></div>
+          <div class="feature-text">
+            <h3>High Quality</h3>
+            <h4>crafted from top materials</h4>
+          </div>
+        </div>
+  
+        <div class="warranty-protection flex">
+          <div class="logo"><img src="Images/warrenty.png" alt="" /></div>
+          <div class="feature-text">
+            <h3>Warranty Protection</h3>
+            <h4>Free Shipping</h4>
+          </div>
+        </div>
+  
+        <div class="free-shipping flex">
+          <div class="logo"><img src="Images/freeshipping.png" alt="" /></div>
+          <div class="feature-text">
+            <h3>Free Shipping</h3>
+            <h4>Order over 150$</h4>
+          </div>
+        </div>
+  
+        <div class="\24/7 Support flex">
+          <div class="logo">
+            <img src="Images/customer-support.png" alt="" />
+          </div>
+          <div class="feature-text">
+            <h3>F24/7 Support</h3>
+            <h4>Dedicated Support</h4>
+          </div>
+        </div>
+      </section>
+  
+      <!-- footer section -->
+      <section>
+        <footer class="product-container">
+          <div class="footer-desciption">
+            <h2>Funiro</h2>
+            <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+          </div>
+          <div class="footer-links">
+            <a href="Links">Links</a>
+            <a href="Home">Home</a>
+            <a href="Shop">Shop</a>
+            <a href="About">About</a>
+            <a href="Contact">Contact</a>
+          </div>
+          <div class="footer-help">
+            <a href="Help">Help</a>
+            <a href="Payment Options">Payment Option</a>
+            <a href="Returns">Returns</a>
+            <a href="Privacy Policies">Privacy Policies</a>
+          </div>
+          <div class="footer-newsletter">
+            <input placeholder="Enter Your Email Address" type="text" />
+            <button>SUBSCRIBE</button>
+          </div>
+        </footer>
+        <h4 class="rights">2023 furino. All rights reverved</h4>
+      </section>
+
+    
+   
+  </body>
+</html>

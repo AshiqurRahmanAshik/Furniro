@@ -209,7 +209,6 @@ footer {
   top: 50px;
 }
 .features {
-  margin: 100px 0;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -312,4 +311,70 @@ footer {
 
 .about-product {
   padding: 50px;
+}
+
+/* card-total */
+
+.add-to-card {
+  gap: 100px;
+}
+.cart-menu {
+  justify-content: space-around;
+}
+.cart-box {
+  background-color: #f9f0e5;
+  padding: 30px;
+  width: 280px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cart-box h2 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cart-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.cart-table td {
+  padding: 8px 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  text-align: right;
+}
+
+.muted {
+  color: #bbb;
+}
+
+.highlight {
+  color: #d4a73c;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.table-bg {
+  background-color: #eee0bf;
 }

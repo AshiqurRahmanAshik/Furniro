@@ -92,18 +92,22 @@
 }
 
 /* Our Product Section */
-/* .inner-div {
-  background-color: #e3e0e0;
-  position: relative;
-  padding: 118px 0;
-  top: -480px;
+.inner-div {
+  background-color: black;
+  position: absolute;
+  top: 1702px;
   opacity: 0.3;
+  height: 200px;
+  width: 280px;
+  border: #222 solid 1px;
   display: none;
+  padding-top: 100px;
+  color: white;
 }
-.outer-div:hover .inner-div {
+.outer-div:hover > .inner-div {
   display: block;
   transition: all 0.3s ease-in-out;
-} */
+}
 .our-products-title {
   font: bold;
   text-align: center;
